@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Online ToDo List
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Pratik Prabhakar
+Implementation-Vendor-Id: com.javaassignment.online.todolist
+Build-Jdk: 1.8.0_161
+Implementation-URL: http://projects.spring.io/spring-boot/online-todol
+ ist/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

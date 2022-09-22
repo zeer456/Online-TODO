@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+<title>Online TODO List Application</title>
+
+<th:block th:include="fragments/headerinc :: head"></th:block>
+</head>
+<body>
+
+	<div class="container">
+		<th:block th:include="fragments/header :: header"></th:block>
+	</div>
+	
+	<form th:action="@{/tasks}" method="get">
+		<table align="center">
+			<tr>
+				<th>Username:</th>
+				<td><input type="text" id="uname" value="test" /></td>
+			</tr>
+			<tr>
+				<th>Password:</th>
+				<td><input type="password" id="password" value="pwd123" /></td>
+			</tr>
+		<tr/>
+		</table>
+		<br/>
+		<center><button type="submit">Submit</button></center>
+	</form>
+	
+</body>
+</html>
